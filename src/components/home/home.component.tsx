@@ -7,12 +7,12 @@ import image1 from "../../images/desktop-image-hero-1.jpg";
 const Home = () => {
   return (
     <>
-      <div className="grid grid-cols-7">
+      <div className="grid grid-cols-7 table-row">
         <div className="col-span-4">
-          <img className="w-full" src={image1} alt="home" />
+          <img className="h-100 w-full" src={image1} alt="home" />
         </div>
-        <div className="col-span-3 p-20 justify-items-center">
-          <h2 className="text-4xl subpixel-antialiased font-bold pb-6">
+        <div className="col-span-3 px-24 pt-8 justify-items-center">
+          <h2 className="text-3xl subpixel-antialiased font-bold pb-6">
             Discover innovative ways to decorate
           </h2>
           <p className="subpixel-antialiased text-gray-500 text-sm">

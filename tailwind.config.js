@@ -8,6 +8,15 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
+    fontSize: {
+      sm: "0.8rem",
+      base: "1rem",
+      xl: "1.25rem",
+      "2xl": "1.563rem",
+      "3xl": "1.953rem",
+      "4xl": "2.441rem",
+      "5xl": "3.052rem",
+    },
     letterSpacing: {
       wider: ".40rem",
       widest: ".85rem",
@@ -18,6 +27,9 @@ module.exports = {
     },
     extend: {
       spacing: {
+        86: "23.4rem",
+        100: "25rem",
+        110: "30rem",
         128: "32rem",
         144: "36rem",
       },

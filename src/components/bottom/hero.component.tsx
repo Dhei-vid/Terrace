@@ -3,11 +3,11 @@ import Light from "../../images/image-about-light.jpg";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-7 h-56">
+    <div className="grid grid-cols-7 h-48">
       <div className="col-span-2">
-        <img className="h-64" src={Dark} alt="Dark furniture" />
+        <img src={Dark} alt="Dark furniture" />
       </div>
-      <div className="col-span-3 p-12">
+      <div className="col-span-3 p-10">
         <h3 className="font-bold uppercase tracking-wider pb-2 ">
           About our furniture
         </h3>
@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="col-span-2">
-        <img className="h-64" src={Light} alt="Light Furniture" />
+        <img src={Light} alt="Light Furniture" />
       </div>
     </div>
   );
