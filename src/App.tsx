@@ -1,28 +1,11 @@
-import React, { useState } from "react";
-import { TerData } from "./data";
+import React from "react";
 
-// import Home from "../src/components/home/home.component";
-
-console.log(TerData);
-
-type TerraceData = {
-  id: number;
-  image: string;
-  header: string;
-  text: string;
-};
+import Home from "../src/components/home/home.component";
 
 function App() {
-  const [data, setData] = useState<TerraceData[]>([]);
-
-  setData(TerData);
-
   return (
-    <div className="App">
-      <header className="text-3xl font-bold underline">
-        Calm I am building
-      </header>
-      {/* <Home Tdata={data} /> */}
+    <div>
+      <Home />
     </div>
   );
 }
