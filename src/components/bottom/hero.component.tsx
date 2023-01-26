@@ -3,13 +3,15 @@ import Light from "../../images/image-about-light.jpg";
 
 const Hero = () => {
   return (
-    <div>
-      <div>
-        <img src={Dark} alt="Dark furniture" />
+    <div className="grid grid-cols-7 h-56">
+      <div className="col-span-2">
+        <img className="h-64" src={Dark} alt="Dark furniture" />
       </div>
-      <div>
-        <h3>About our furniture</h3>
-        <p>
+      <div className="col-span-3 p-12">
+        <h3 className="font-bold uppercase tracking-wider pb-2 ">
+          About our furniture
+        </h3>
+        <p className="text-gray-500 text-sm">
           Our multifunctional collection blends design and function to suit your
           individual taste. Make each room unique, or pick a cohesive theme that
           best express your interest and what inspires you. Find the furniture
@@ -18,8 +20,8 @@ const Hero = () => {
           dream space.
         </p>
       </div>
-      <div>
-        <img src={Light} alt="Light Furniture" />
+      <div className="col-span-2">
+        <img className="h-64" src={Light} alt="Light Furniture" />
       </div>
     </div>
   );
