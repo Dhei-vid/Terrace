@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { TerData } from "./data";
+
+// import Home from "../src/components/home/home.component";
+
+console.log(TerData);
+
+type TerraceData = {
+  id: number;
+  image: string;
+  header: string;
+  text: string;
+};
 
 function App() {
+  const [data, setData] = useState<TerraceData[]>([]);
+
+  setData(TerData);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="text-3xl font-bold underline">
+        Calm I am building
       </header>
+      {/* <Home Tdata={data} /> */}
     </div>
   );
 }
