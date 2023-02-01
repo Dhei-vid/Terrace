@@ -1,7 +1,6 @@
-import Button from "../button/button.component";
+import Button from "../button/pagination.component";
 import Hero from "../bottom/hero.component";
-
-import Arrow from "../../images/icon-arrow.svg";
+import ShopNowButton from "../button/shopButton.component";
 import image1 from "../../images/desktop-image-hero-1.jpg";
 
 const Home = () => {
@@ -22,12 +21,7 @@ const Home = () => {
             our collection and make your property a reflection of you and what
             you love.
           </p>
-          <button className="flex pt-6 gap-4 items-center font-bold">
-            <div className="uppercase tracking-widest text-sm">shop now</div>
-            <div>
-              <img src={Arrow} alt="arrow" />
-            </div>
-          </button>
+          <ShopNowButton />
           <Button />
         </div>
       </div>
