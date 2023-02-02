@@ -11,7 +11,7 @@ const Hero = () => {
         <h3 className="font-bold uppercase tracking-wider pb-2 ">
           About our furniture
         </h3>
-        <p className="text-gray-500 text-sm">
+        <p className="text-gray-500 text-xs">
           Our multifunctional collection blends design and function to suit your
           individual taste. Make each room unique, or pick a cohesive theme that
           best express your interest and what inspires you. Find the furniture
@@ -20,7 +20,7 @@ const Hero = () => {
           dream space.
         </p>
       </div>
-      <div className="col-span-2">
+      <div className="col-span-2 mr-0.5">
         <img src={Light} alt="Light Furniture" />
       </div>
     </div>
