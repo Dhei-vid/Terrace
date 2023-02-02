@@ -15,7 +15,7 @@ const Page3 = () => {
           <h2 className="text-3xl subpixel-antialiased font-bold pb-6">
             Manufactured with the best materials
           </h2>
-          <p className="subpixel-antialiased text-gray-500 text-xs">
+          <p className="text-gray-500 text-xs">
             Our modern furniture store provide a high level of quality. Our
             company has invested in advanced technology to ensure that every
             product is made as perfect and as consistent as possible. With three
