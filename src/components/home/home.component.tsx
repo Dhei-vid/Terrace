@@ -3,6 +3,7 @@ import image1 from "../../images/desktop-image-hero-1.jpg";
 import ShopNowButton from "../button/shopButton.component";
 import Button from "../button/pagination.component";
 import Hero from "../bottom/hero.component";
+import Page2 from "../page2/page2.component";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <div className="col-span-4">
           <img className="h-100 w-full" src={image1} alt="home" />
         </div>
-        <div className="col-span-3 px-24 pt-8 justify-items-center relative">
+        <div className="col-span-3 px-28 pt-8 justify-items-center relative">
           <h2 className="text-3xl subpixel-antialiased font-bold pb-6">
             Discover innovative ways to decorate
           </h2>
@@ -23,7 +24,7 @@ const Home = () => {
             you love.
           </p>
           <ShopNowButton />
-          <Button />
+          <Button prev={`/`} next={`/page2`} />
         </div>
       </div>
       <Hero />

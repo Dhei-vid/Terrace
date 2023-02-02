@@ -10,19 +10,18 @@ const Page2 = () => {
         <div className="col-span-4">
           <img className="h-100 w-full" src={image2} alt="home" />
         </div>
-        <div className="col-span-3 px-24 pt-8 justify-items-center">
-          <h2 className="text-3xl subpixel-antialiased font-bold pb-6">
-            Discover innovative ways to decorate
+        <div className="col-span-3 px-28 pt-10 justify-items-center relative">
+          <h2 className="text-3xl font-bold pb-6">
+            We are available all across the globe
           </h2>
-          <p className="subpixel-antialiased text-gray-500 text-sm">
-            We provide unmatched quality, comfort, and style for property owners
-            across the country. Our experts combine form and function into
-            bringing your vision to life. Create a room in your own style with
-            our collection and make your property a reflection of you and what
-            you love.
+          <p className="subpixel-antialiased text-gray-500 text-xs">
+            With stores all over the world, it's easy to find furniture for your
+            home or place of business. Locally, we're in most cities throughout
+            the country. Find the branch nearest you using our store locator.
+            Any questions? Don't hesitate to contact us today.
           </p>
           <ShopNowButton />
-          <Button />
+          <Button prev={`/`} next={`/page3`} />
         </div>
       </div>
       <Hero />
