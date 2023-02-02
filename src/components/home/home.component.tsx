@@ -1,7 +1,8 @@
+import image1 from "../../images/desktop-image-hero-1.jpg";
+
+import ShopNowButton from "../button/shopButton.component";
 import Button from "../button/pagination.component";
 import Hero from "../bottom/hero.component";
-import ShopNowButton from "../button/shopButton.component";
-import image1 from "../../images/desktop-image-hero-1.jpg";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
         <div className="col-span-4">
           <img className="h-100 w-full" src={image1} alt="home" />
         </div>
-        <div className="col-span-3 px-24 pt-8 justify-items-center">
+        <div className="col-span-3 px-24 pt-8 justify-items-center relative">
           <h2 className="text-3xl subpixel-antialiased font-bold pb-6">
             Discover innovative ways to decorate
           </h2>
