@@ -1,4 +1,5 @@
 import image1 from "../../images/desktop-image-hero-1.jpg";
+import Navigation from "../navigation/navigation.component";
 
 import ShopNowButton from "../button/shopButton.component";
 import Button from "../button/pagination.component";
@@ -9,6 +10,7 @@ const Home = () => {
     <>
       <div className="grid grid-cols-7 table-row">
         <div className="col-span-4">
+          <Navigation />
           <img className="h-100 w-full" src={image1} alt="home" />
         </div>
         <div className="col-span-3 px-28 pt-8 justify-items-center relative">
