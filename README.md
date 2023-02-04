@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Terrace
+
+At Terrace, we provide you with the best furnitures for your homes, offices, stores, outdoor lounges and wherever you might need them. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
