@@ -11,7 +11,12 @@ const Page2 = () => {
       <div className="grid grid-cols-7 table-row">
         <div className="col-span-4 relative">
           <Navigation />
-          <img className="h-100 w-full" src={image2} alt="home" />
+          <img
+            className="h-100 w-full"
+            src={image2}
+            alt="home"
+            loading="lazy"
+          />
         </div>
         <div className="col-span-3 px-28 pt-10 justify-items-center relative">
           <h2 className="text-3xl font-bold pb-6">
