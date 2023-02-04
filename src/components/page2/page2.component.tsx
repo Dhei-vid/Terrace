@@ -1,13 +1,16 @@
 import Button from "../button/pagination.component";
 import ShopNowButton from "../button/shopButton.component";
 import Hero from "../bottom/hero.component";
+import Navigation from "../navigation/navigation.component";
+
 import image2 from "../../images/desktop-image-hero-2.jpg";
 
 const Page2 = () => {
   return (
     <>
       <div className="grid grid-cols-7 table-row">
-        <div className="col-span-4">
+        <div className="col-span-4 relative">
+          <Navigation />
           <img className="h-100 w-full" src={image2} alt="home" />
         </div>
         <div className="col-span-3 px-28 pt-10 justify-items-center relative">

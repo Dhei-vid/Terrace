@@ -1,6 +1,7 @@
 import ShopNowButton from "../button/shopButton.component";
 import Button from "../button/pagination.component";
 import Hero from "../bottom/hero.component";
+import Navigation from "../navigation/navigation.component";
 
 import image3 from "../../images/desktop-image-hero-3.jpg";
 
@@ -8,7 +9,8 @@ const Page3 = () => {
   return (
     <>
       <div className="grid grid-cols-7 table-row">
-        <div className="col-span-4">
+        <div className="col-span-4 relative">
+          <Navigation />
           <img className="h-100 w-full" src={image3} alt="home" />
         </div>
         <div className="col-span-3 px-28 pt-8 justify-items-center relative">

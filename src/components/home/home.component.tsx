@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <div className="grid grid-cols-7 table-row">
-        <div className="col-span-4">
+        <div className="col-span-4 relative">
           <Navigation />
           <img className="h-100 w-full" src={image1} alt="home" />
         </div>
