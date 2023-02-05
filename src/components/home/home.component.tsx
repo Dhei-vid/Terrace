@@ -12,7 +12,7 @@ const Home = () => {
         <div className="col-span-4 relative">
           <Navigation />
           <img
-            className="h-100 w-auto"
+            className="h-100 w-full"
             src={image1}
             alt="home"
             loading="lazy"
