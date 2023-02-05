@@ -3,8 +3,8 @@ import Light from "../../images/image-about-light.jpg";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-7 h-48">
-      <div className="col-span-2">
+    <div className="grid grid-cols-1 md:grid-cols-7 h-48">
+      <div className="md:col-span-2">
         <img src={Dark} alt="Dark furniture" />
       </div>
       <div className="col-span-3 p-10">
