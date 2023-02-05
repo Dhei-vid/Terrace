@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-7 h-48">
       <div className="md:col-span-2">
-        <img src={Dark} alt="Dark furniture" />
+        <img className="w-full" src={Dark} alt="Dark furniture" />
       </div>
       <div className="col-span-3 p-10">
         <h3 className="font-bold uppercase tracking-wider pb-2 ">
@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="col-span-2 mr-0.5">
-        <img src={Light} alt="Light Furniture" />
+        <img className="w-full" src={Light} alt="Light Furniture" />
       </div>
     </div>
   );
