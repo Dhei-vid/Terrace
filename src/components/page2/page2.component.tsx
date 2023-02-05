@@ -8,7 +8,7 @@ import image2 from "../../images/desktop-image-hero-2.jpg";
 const Page2 = () => {
   return (
     <>
-      <div className="grid grid-cols-7 table-row">
+      <div className="grid grid-cols-1 md:grid-cols-7">
         <div className="col-span-4 relative">
           <Navigation />
           <img
@@ -18,7 +18,7 @@ const Page2 = () => {
             loading="lazy"
           />
         </div>
-        <div className="col-span-3 px-28 pt-10 justify-items-center relative">
+        <div className="col-span-3 px-10 pt-8 md:px-28 justify-items-center md:relative">
           <h2 className="text-3xl font-bold pb-6">
             We are available all across the globe
           </h2>
