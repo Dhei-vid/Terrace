@@ -15,10 +15,10 @@ const Button = ({ prev, next }: any) => {
   };
 
   return (
-    <div className="flex cursor-pointer absolute bottom-a right-0 md:bottom-0 md:left-0">
+    <div className="flex cursor-pointer absolute bottom-82 right-0 md:bottom-0 md:right-84 z-10">
       <div onClick={() => prevPage()}>
         <img
-          className="bg-slate-900 py-5 px-x dark:md:hover:bg-zinc-400"
+          className="bg-slate-900 py-5 px-x dark:hover:bg-zinc-400"
           src={AngleL}
           alt="left arrow"
         />
@@ -26,7 +26,7 @@ const Button = ({ prev, next }: any) => {
 
       <div onClick={() => nextPage()}>
         <img
-          className="bg-slate-900 py-5 px-x dark:md:hover:bg-zinc-400"
+          className="bg-slate-900 py-5 px-x dark:hover:bg-zinc-400"
           src={AngleR}
           alt="right arrow"
         />
