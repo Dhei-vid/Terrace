@@ -7,8 +7,8 @@ const Hero = () => {
       <div className="md:col-span-2">
         <img className="w-full" src={Dark} alt="Dark furniture" />
       </div>
-      <div className="col-span-3 p-10">
-        <h3 className="font-bold uppercase tracking-wider pb-2 ">
+      <div className="col-span-3 p-14">
+        <h3 className="font-bold uppercase tracking-wider pb-4">
           About our furniture
         </h3>
         <p className="text-gray-500 text-xs">

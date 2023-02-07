@@ -15,7 +15,7 @@ const Page2 = () => {
           <img
             className="hidden h-100 w-full md:block"
             src={image2}
-            alt="home"
+            alt="page2"
             loading="lazy"
           />
           <img
@@ -25,7 +25,7 @@ const Page2 = () => {
             loading="lazy"
           />
         </div>
-        <div className="col-span-3 px-10 pt-8 md:px-28 justify-items-center relative">
+        <div className="col-span-3 px-14 pt-8 md:px-28 justify-items-center relative">
           <h2 className="text-3xl font-bold pb-6">
             We are available all across the globe
           </h2>

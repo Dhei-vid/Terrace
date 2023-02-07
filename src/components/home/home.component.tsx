@@ -9,8 +9,8 @@ import Hero from "../bottom/hero.component";
 const Home = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-7">
-        <div className="col-span-4">
+      <div className="grid grid-cols-1 md:grid-cols-7 ">
+        <div className="md:col-span-4">
           <Navigation />
           <img
             className="hidden h-100 w-full md:block"
@@ -25,7 +25,7 @@ const Home = () => {
             loading="lazy"
           />
         </div>
-        <div className="col-span-3 px-10 md:px-28 pt-8 justify-items-center relative">
+        <div className="col-span-3 px-14 md:px-28 pt-8 justify-items-center relative">
           <h2 className="text-3xl font-bold pb-6">
             Discover innovative ways to decorate
           </h2>

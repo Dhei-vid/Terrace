@@ -25,7 +25,7 @@ const Page3 = () => {
             loading="lazy"
           />
         </div>
-        <div className="col-span-3 px-10 md:px-28 pt-8 justify-items-center relative">
+        <div className="col-span-3 px-14 md:px-28 pt-8 justify-items-center relative">
           <h2 className="text-3xl subpixel-antialiased font-bold pb-6">
             Manufactured with the best materials
           </h2>
