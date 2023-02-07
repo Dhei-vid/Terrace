@@ -15,7 +15,7 @@ const Button = ({ prev, next }: any) => {
   };
 
   return (
-    <div className="flex cursor-pointer absolute bottom-82 right-0 md:bottom-0 md:right-84 z-10">
+    <div className="flex cursor-pointer absolute bottom-full right-0 md:bottom-0 md:left-0 z-10">
       <div onClick={() => prevPage()}>
         <img
           className="bg-slate-900 py-5 px-x dark:hover:bg-zinc-400"
